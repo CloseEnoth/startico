@@ -93,6 +93,7 @@ h1, h2, h3, h4, h5, h6 {
           flex-direction: column;
   background-color: var(--primary-color);
   color: var(--secondary-color);
+  font: 400 16px/24px var(--primary-font);
 }
 
 .container {
@@ -140,11 +141,26 @@ h1, h2, h3, h4, h5, h6 {
           align-items: center;
 }
 
-.header__img {
+.header__img1 {
   max-width: 24px;
 }
 
-.header__img img {
+.header__img1 img {
+  width: 100%;
+}
+
+.header__img2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 0 0 8px;
+  max-width: 79px;
+}
+
+.header__img2 img {
   width: 100%;
 }
 
