@@ -77,6 +77,8 @@ h1, h2, h3, h4, h5, h6 {
   --secondary-color: hsl(0, 0%, 100%);
   --secondary-dark-color: hsl(0, 0%, 90%);
   --thrid-color: hsl(76, 71%, 80%);
+  --primary-font: "Space Grotesk", sans-serif;
+  --secondary-font: "Fraunces", serif;
 }
 
 .wrapper {
