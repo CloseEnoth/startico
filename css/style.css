@@ -71,6 +71,14 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: inherit;
 }
 
+:root {
+  --primary-color: hsl(202, 46%, 16%);
+  --primary-light-color: hsl(202, 9%, 58%);
+  --secondary-color: hsl(0, 0%, 100%);
+  --secondary-dark-color: hsl(0, 0%, 90%);
+  --thrid-color: hsl(76, 71%, 80%);
+}
+
 .wrapper {
   min-height: 100%;
   margin: 0 auto;
@@ -81,7 +89,8 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-color: #0f37a5;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 .container {
