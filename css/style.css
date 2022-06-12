@@ -323,3 +323,61 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 8px;
 }
+
+.watch {
+  margin-bottom: 128px;
+}
+
+.watch__video {
+  position: relative;
+  width: 100%;
+  min-height: 640px;
+  background: url(/assets/main/watch/image.png) center/cover no-repeat;
+  z-index: 1;
+}
+
+.watch__button {
+  position: absolute;
+  z-index: 2;
+  top: calc(50% - 24.2px);
+  left: calc(50% - 106px);
+  padding: 14px 42px;
+  background-color: var(--thrid-color);
+  border-color: var(--thrid-color);
+}
+
+.faster__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.faster__image {
+  max-width: 600px;
+}
+
+.faster__image img {
+  width: 100%;
+}
+
+.faster__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.faster__slogan {
+  border-radius: 64px;
+  background-color: var(--thrid-color);
+  margin-bottom: 15px;
+}
